@@ -15,60 +15,63 @@
     <nav class="structural">
         <ul>
             <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Contact</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <main class="structural">
-        <h2>Contact</h2>
-        <form>
-            <div>
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" required autofocus>
-            </div>
-            <div>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" required>
-            </div>
-            <fieldset>
-                <legend>What section of PROG1245 are you in?</legend>
-                <input type="radio" name="sec" value="4" id="4" required>
-                <label for="4">Section 4</label>
-                <br>
-                <input type="radio" name="sec" value="5" id="5">
-                <label for="5">Section 5</label>
-                <br>
-                <input type="radio" name="sec" value="8" id="8" checked>
-                <label for="8">Section 8</label>
-            </fieldset>
-            <div>
-                <label for="help">What do you need help with?</label>
-                <select id="help" name="help" required>
-                    <option value="" selected>Select</option>
-                    <option value="html">html</option>
-                    <option value="css">css</option>
-                    <option value="both">Both (html & css)</option>
-                </select>
-            </div>
-            <div>
-                <label for="comments">Comments</label>
-                <textarea id="comment" name="comment" rows="4" required></textarea>
-            </div>
-            <div>
-                <input type="checkbox" value="true" name="human" id="human" required>
-                <label for="human">I am human</label>
-            </div>
-            <div>
-                <input type="submit" id="submit" value="Submit">
-            </div>
-        </form>
-    </main>
-    <aside class="structural">
-        <h2>CSS Hselp</h2>
-    <ul>
-        <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
-        <li><a href="https://www.google.ca/" target="_blank">Google</a></li>
-    </ul>
-    </aside>
+    <section>
+        <main class="structural">
+            <h2>Contact</h2>
+            <form>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required autofocus>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <fieldset>
+                    <legend>What section of PROG1245 are you in?</legend>
+                    <input type="radio" name="sec" value="4" id="4" required>
+                    <label for="4">Section 4</label>
+                    <br>
+                    <input type="radio" name="sec" value="5" id="5">
+                    <label for="5">Section 5</label>
+                    <br>
+                    <input type="radio" name="sec" value="8" id="8" checked>
+                    <label for="8">Section 8</label>
+                </fieldset>
+                <div>
+                    <label for="help">What do you need help with?</label>
+                    <select id="help" name="help" required>
+                        <option value="" selected>Select</option>
+                        <option value="html">html</option>
+                        <option value="css">css</option>
+                        <option value="both">Both (html & css)</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="comments">Comments</label>
+                    <textarea id="comment" name="comment" rows="4" required></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" value="true" name="human" id="human" required>
+                    <label for="human">I am human</label>
+                </div>
+                <div>
+                    <input type="submit" id="submit" value="Submit">
+                </div>
+            </form>
+        </main>
+        <aside class="structural">
+            <h2>CSS Hselp</h2>
+        <ul>
+            <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+            <li><a href="https://www.google.ca/" target="_blank">Google</a></li>
+        </ul>
+        </aside>
+    </section>
     <footer class="structural">
         <p>&copy; Nicholas 2023</p>
     </footer>
